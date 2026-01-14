@@ -1,0 +1,19 @@
+# YOLO 自动识别相关依赖
+
+# 数据采集
+pyautogui>=0.9.54
+keyboard>=0.13.5
+Pillow>=10.0.0
+
+# 图像处理
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# YOLO训练和推理
+ultralytics>=8.0.0
+
+# 数据集整理
+PyYAML>=6.0
+
+# 可选：图像标注工具
+# labelImg>=1.8.6  # 需要单独安装
