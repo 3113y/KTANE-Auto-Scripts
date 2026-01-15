@@ -1,0 +1,26 @@
+# 全自动拆弹系统依赖
+
+# YOLO 目标检测
+ultralytics>=8.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# 屏幕截图
+mss>=9.0.0
+
+# 鼠标键盘控制
+pyautogui>=0.9.54
+pywin32>=306  # Windows窗口控制
+
+# OCR识别（可选，选一个安装）
+# pytesseract>=0.3.10
+# easyocr>=1.7.0
+# paddleocr>=2.7.0
+
+# 图像处理
+opencv-python>=4.8.0
+numpy>=1.24.0
+pillow>=10.0.0
+
+# 现有依赖
+PyQt5>=5.15.0
